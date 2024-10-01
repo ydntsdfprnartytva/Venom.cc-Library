@@ -523,6 +523,7 @@ function OrionLib:MakeWindow(WindowConfig)
 			Position = UDim2.new(-14, 9, 0, 0),
 			Size = UDim2.new(0, 35, 0, 35),
 			Name = "Ico"
+			ImageColor3 = Color3.new(77, 12, 214)
 		}), "Text")
 	})
 
