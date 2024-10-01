@@ -1013,9 +1013,9 @@ function OrionLib:MakeWindow(WindowConfig)
 					BackgroundTransparency = 0.3,
 					ClipsDescendants = true
 				}), {
-					AddThemeObject(SetProps(MakeElement("Label", "value", 13), {
+					AddThemeObject(SetProps(MakeElement("Label", "value", 15), {
 						Size = UDim2.new(1, -12, 0, 14),
-						Position = UDim2.new(0, 12, 0, 6),
+						Position = UDim2.new(0, -145, 0, -4),
 						Font = Enum.Font.GothamBold,
 						Name = "Value",
 						TextTransparency = 0
@@ -1046,7 +1046,7 @@ function OrionLib:MakeWindow(WindowConfig)
 				}), {
 					AddThemeObject(SetProps(MakeElement("Label", SliderConfig.Name, 15), {
 						Size = UDim2.new(1, -12, 0, 14),
-						Position = UDim2.new(0, 12, 0, 10),
+						Position = UDim2.new(0, 80, 0, 13),
 						Font = Enum.Font.GothamBold,
 						Name = "Content"
 					}), "Text"),
