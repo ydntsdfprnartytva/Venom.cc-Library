@@ -522,7 +522,6 @@ function OrionLib:MakeWindow(WindowConfig)
 			Position = UDim2.new(-14, 9, 0, 0),
 			Size = UDim2.new(0, 35, 0, 35),
 			Name = "Ico"
-			ImageColor3 = Color3.fromRGB(77, 12, 214)
 		}), "Text")
 	})
 
@@ -1033,7 +1032,7 @@ function OrionLib:MakeWindow(WindowConfig)
 					}),
 					AddThemeObject(SetProps(MakeElement("Label", "value", 15), {
 						Size = UDim2.new(1, -12, 0, 14),
-						Position = UDim2.new(0, -135, 0, -4),
+						Position = UDim2.new(0, -145, 0, -4),
 						Font = Enum.Font.GothamBold,
 						Name = "Value",
 						TextTransparency = 0
