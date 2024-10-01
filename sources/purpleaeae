@@ -1028,7 +1028,7 @@ function OrionLib:MakeWindow(WindowConfig)
 					BackgroundTransparency = 0.9
 				}), {
 					SetProps(MakeElement("Stroke"), {
-						Color = Color3.fromRGB(152, 152, 152)
+						Transparency = 1
 					}),
 					AddThemeObject(SetProps(MakeElement("Label", "value", 13), {
 						Size = UDim2.new(1, -12, 0, 14),
