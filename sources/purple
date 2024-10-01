@@ -1024,7 +1024,7 @@ function OrionLib:MakeWindow(WindowConfig)
 
 				local SliderBar = SetChildren(SetProps(MakeElement("RoundFrame", SliderConfig.Color, 0, 5), {
 					Size = UDim2.new(0.8, 0, 0, 6),
-					Position = UDim2.new(0, 75, 0, 30),
+					Position = UDim2.new(0, 75, 0, 17),
 					BackgroundTransparency = 0.9
 				}), {
 					SetProps(MakeElement("Stroke"), {
