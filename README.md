@@ -1,6 +1,6 @@
 ## Get Loadstring
 ```lua
-local VenomLibrary = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ydntsdfprnartytva/Venom.cc-Library/refs/heads/main/sources/source_purple')))()
+local VenomLibrary = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ydntsdfprnartytva/Venom.cc-Library/refs/heads/main/source')))()
 ```
 ## Create Window
 ```lua
